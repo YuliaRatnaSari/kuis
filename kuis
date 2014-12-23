@@ -1,0 +1,44 @@
+#include <stdio.h>
+int main()
+{    int x=3, idx, i=0, j=0, a[2][5]={4,5,8,1,2,3,11,23,10,13};
+    while(i<j){
+            if(a[i][j]=x){
+            printf("Nilai x berada pada index ke %d", x);
+            }x++;
+    }
+
+    if(a[i][j]=x){
+        idx=a[i][j];
+        printf("Nilai x berada pada index ke: %d", idx);
+        i=1;
+        j=5;
+        printf("\nNilai index pada larik: [%d][%d]", i, j);
+    }
+    else{
+        printf("Nilai x tidak berada pada larik a");
+    }
+}
+ 
+
+
+
+
+
+#include <stdio.h>
+main()
+{
+    int i, j, temp, min, idx, a[2][5]={4,5,8,1,2,3,11,23,10,13};
+    for(i=0; i<1; i++){
+        min=i;
+        for(j=0; j<4; j++){
+            min=j;
+            if(a[i][j] < min){
+                idx=a[i][j];
+                printf("Nilai min adalah index ke %d\n", min);
+            }
+        }
+    }
+    temp=min;
+    min=a[i][j];
+    idx=temp;
+}
